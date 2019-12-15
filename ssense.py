@@ -65,6 +65,6 @@ def task():
             print(str(datetime.datetime.now())+" Monitoring---------[ Ssense "+ str(sku) +" ]------Restock[True]")
             old_list = instock_list
         else:
-            print(str(datetime.datetime.now())+" Monitoring---------[ Ssense "+ str(sku) +" ]------Restock[False]")
+            print(str(datetime.datetime.now())+" Monitoring---------[ Ssense "+ str(sku) +" ]------Restock[False]-")
         time.sleep(3)
 task()
